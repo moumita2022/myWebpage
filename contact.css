@@ -1,0 +1,147 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+nav ul li{
+    list-style-type: none;
+ 
+}
+nav ul li:hover{
+    background-color: hotpink;
+    border:1px;
+    border-radius: 10px;
+    
+   
+}
+nav ul li:active{
+    background-color: tomato;
+    text-shadow: wheat;
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.logo{
+    padding: 25px;
+}
+
+ header {
+  height: 160px;
+  background-color: rgb(212, 226, 11);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  font-family: Rubik Moonrocks,sans-serif;
+
+}
+.aLinks{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  text-shadow:0 0 13px indigo;
+  padding-right: 20px;
+}
+main{
+    background-color: rgb(241, 189, 241) ;
+    font-family: 'Griffy', cursive;
+}
+/*Contact*/
+form > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+ ul div {text-align:center;
+    list-style-type:square;
+    list-style-position: inside;
+}
+ol div{
+    text-align: center;
+    list-style-position: inside;
+}
+form > div > :first-child {
+    text-align: right;
+    width: 10%;
+}
+
+form > div > :nth-child(2) {
+    width: 40%;
+}
+.Age {
+    text-align: center;
+    display:inline-table;
+    width: 73%;
+ 
+}
+#to30 {
+  margin-left: 20px;
+}
+#to60 {
+    margin-left: 20px;
+  }
+   #ml{
+  
+      margin-left:13%;
+  }
+  #tc{
+    margin-left:13%;
+  } 
+.mail{
+    text-align:center;
+}
+
+#tt{
+    font-style: italic;
+}
+form p {
+
+    margin:30px;
+    font-size: 1rem;
+    color: slategray;
+}
+div label {
+    text-align:left;
+}
+
+form > div > div > div {
+    margin-bottom: 5px;
+}
+.now{
+    margin-top: 50px;
+    font-style: italic;
+  padding-right: 20px;
+  background-color: khaki;
+  box-shadow:3px 3px 5px lightcoral;
+}
+
+ 
+/*End Of Contact*/
+footer {
+    background-color: rgb(212, 226, 11);
+    color: grey;
+    display: flex;
+    justify-content:space-around;
+    text-align:end;
+    padding: 0.8em;
+    font-weight: bold;
+    font-family:'Griffy', cursive;
+}

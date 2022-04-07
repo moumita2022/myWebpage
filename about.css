@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+nav ul li{
+    list-style-type: none;
+ 
+}
+nav ul li:hover{
+    background-color: hotpink;
+    border:1px;
+    border-radius: 10px;
+    
+   
+}
+nav ul li:active{
+    background-color: tomato;
+    text-shadow: wheat;
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.logo{
+    padding: 25px;
+}
+
+ header {
+  height: 160px;
+  background-color: rgb(212, 226, 11);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  font-family: Rubik Moonrocks,sans-serif;
+
+}
+.aLinks{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  text-shadow:0 0 13px indigo;
+  padding-right: 20px;
+}
+main{
+    background-color: rgb(241, 189, 241);
+}
+.img{
+    text-align: center;
+    font-family:'Griffy', cursive;
+}
+.imgg{
+    width: 50vw;
+    height: 60vh;
+}
+.para{
+    font-family:'Griffy', cursive;
+}
+h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.more{width: 200px;
+    height: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+    position:relative;
+    left: 42%;
+    border-radius:20px;
+    color:blanchedalmond;
+    margin: 80px;
+}
+footer {
+    background-color: rgb(212, 226, 11);
+    color: grey;
+    display: flex;
+    justify-content:space-around;
+    text-align:end;
+    padding: 0.8em;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    font-family:'Griffy', cursive;
+}

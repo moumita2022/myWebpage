@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+nav ul li{
+    list-style-type: none;
+ 
+}
+nav ul li:hover{
+    background-color: hotpink;
+    border:1px;
+    border-radius: 10px;
+    
+   
+}
+nav ul li:active{
+    background-color: tomato;
+    text-shadow: wheat;
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+main {
+    font-family:'Griffy', cursive;
+    font-size: 20px;
+    background-color:rgb(241, 189, 241);
+}
+.h1{
+    text-align: center;
+    text-decoration: underline wavy hotpink;
+}
+
+.Note{
+    background-color: darksalmon;
+    font-weight: bold;
+    padding: 35px;
+}
+
+.cardCont {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    background-color: khaki;
+}
+
+.card {
+    border: 2px black solid;
+    padding: 10px;
+  
+}
+span{
+    float: right;
+}
+.logo{
+    padding: 25px;
+}
+
+.hansaa{
+   text-align: center;  
+}
+.hansaa p{
+   
+    font-size: 20px;
+}
+
+ header {
+  height: 160px;
+  background-color: rgb(212, 226, 11);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  font-family: Rubik Moonrocks,sans-serif;
+
+}
+.aLinks{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  text-shadow:0 0 13px indigo;
+  padding-right: 20px;
+}
+
+.more{
+    width: 100px;
+    height: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+    position:relative;
+    left: 45%;
+    border-radius:20px;
+    color:blanchedalmond;
+    margin-top: 80px;
+    font-family:'Griffy', cursive;
+    
+}
+.mmore{
+    width: 100px;
+    height: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+    position:relative;
+    left: 45%;
+    border-radius: 20px;
+    color:blanchedalmond;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgb(212, 226, 11);
+    color: grey;
+    display: flex;
+    justify-content:space-around;
+    text-align:end;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-family:'Griffy', cursive;
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+nav ul li{
+    list-style-type: none;
+ 
+}
+nav ul li:hover{
+    background-color: hotpink;
+    border:1px;
+    border-radius: 10px;
+    
+   
+}
+nav ul li:active{
+    background-color: tomato;
+    text-shadow: wheat;
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.logo{
+    padding: 25px;
+}
+
+ header {
+  height: 160px;
+  background-color: rgb(212, 226, 11);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  font-family: Rubik Moonrocks,sans-serif;
+
+}
+.aLinks{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  text-shadow:0 0 13px indigo;
+  padding-right: 20px;
+}
+
+.pic{
+    
+    height: 95vh;
+    width: 50vw;
+}
+.carousel-inner{
+    background-color:rgb(241, 189, 241);
+}
+.arrow{
+    
+    color: black !important;
+    width: 20px;
+}
+.carousel-item{
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    left: 25%;
+    align-content: center;
+    background-color:rgb(241, 189, 241);
+}
+
+h2 {
+  background-color: rgb(241, 189, 241);
+  text-align: center;
+  font-family:'Griffy', cursive;
+  font-size: 50px;
+}
+.live{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Griffy', cursive;
+    padding-bottom: 5px;
+    color: hotpink;
+    text-shadow:2px 5px 5px indigo;
+    background-color:rgb(241, 189, 241);
+}
+.table{
+position: relative;
+left:35%;
+
+
+
+}
+.tble{
+color: rgb(96, 110, 126);
+font-family: 'Griffy', cursive;
+
+}
+footer {
+    background-color: rgb(212, 226, 11);
+    color: grey;
+    display: flex;
+    justify-content:space-around;
+    text-align:end;
+    padding: 0.8em;
+    font-weight: bold;
+    font-family:'Griffy', cursive;
+}
